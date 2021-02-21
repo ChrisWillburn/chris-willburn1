@@ -15,13 +15,13 @@ const IndexPage = () => (
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
         <ul className="actions special">
-          <li>
+          {/*<li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
                 Explore
               </a>
             </Scroll>
-          </li>
+          </li>*/}
         </ul>
       </div>
       <Scroll type="id" element="one">
