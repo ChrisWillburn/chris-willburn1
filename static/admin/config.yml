@@ -5,7 +5,11 @@ backend:
   publish_mode: editorial_workflow
 
   media_folder: "static/uploads"
-  media_library: "/src/assets/images" 
+  media_library:
+    name: uploads
+  public_folder: "/src/assets/images" 
+  media_library:
+    name: uploads
 
   collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -21,3 +25,4 @@ backend:
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
 
+      
