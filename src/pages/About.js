@@ -2,66 +2,70 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+import aboutthumb from '../assets/images/aboutthumb.jpg';
+import ba2 from '../assets/images/before-and-after2.jpg';
+import ba3 from '../assets/images/before-and-after3.jpg';
+
 const AboutPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <h2>About Me</h2>
-        <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+        <h2>Meet Chris Willburn</h2>
+        {/*<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>*/}
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3>Lorem ipsum dolor</h3>
-          <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo,
-            tempus sed finibus eget, fringilla quis risus. Maecenas et lorem
-            quis sem varius sagittis et a est. Maecenas iaculis iaculis sem.
-            Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
-          </p>
+          <h3 style={{textAlign: 'center', fontStyle: 'italic'
+          }}>In 2010 I tipped the scales at around 300 pounds.</h3>
 
-          <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna,
-            sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere
-            leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse
-            id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
-          </p>
+          <div className="about-video-container">
+          <div style={{width: '50%'}}>
+          <img src={aboutthumb} style={{maxWidth: '100%'}} alt="Meet Chris Willburn, transformation coach" />
+          </div>
+          <div style={{width: '50%'}}>
+          <p>I was depressed, anxious, struggling with insomnia, on a ton of different prescription medications, and DEEPLY unhappy. </p>
 
-          <hr />
+          <p>I had gained a bunch of weight slowly after a downward spiral when my dad died several years earlier. I also had developed some really <b>unhealthy habits</b> to cope with my grief and sadness.</p>
 
-          <h4>Feugiat aliquam</h4>
-          <p>
-            Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec
-            varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia
-            tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in
-            tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean
-            erat diam, tempus aliquet erat.
-          </p>
+          <p>All I wanted in the world was to <b>lose that weight</b> and get back to "myself" because I knew it would make me happy.</p>
 
-          <p>
-            Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus
-            rutrum cursus velit, eget condimentum nunc blandit vel. In at
-            pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget,
-            fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra
-            commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim
-            vel, posuere finibus justo. Vivamus facilisis maximus nibh quis
-            pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum.
-            Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.
-          </p>
-        </div>
+          <p>So over the course of about a year I lost weight, almost 100 pounds. (I would eventually lose the whole 100 plus).</p>
+          </div>
+          </div>
+
+          <p><b>Except I wasn't happy.</b></p>
+
+          <p>Intrinsically <b>I knew I wasn't going to find happiness in something external</b>, like weight loss. Even though that was part of the puzzle.</p>
+
+          <p>So I went on a journey to learn how to be happy. I learned how to control stress, to stop being so negative and stop beating myself up all the time.</p>
+
+          <p>I learned the <b>benefits of positivity</b> and simple steps to start using it.</p>
+
+          <p className="about-centered">I learned happiness was a choice<br></br>and I chose it every day.</p>
+
+          <p>And during that journey I decided I wanted to help others lose weight too.</p>
+
+          <p>So by early 2014 I had obtained the necessary requirements/certifications to start working with clients. </p>
+
+          <p>I quickly realized my clients were all struggling with the same things I struggled with when I was super overweight and super unhappy.</p>
+
+          <p>The things they don't teach in the classes, courses, and certifications.</p>
+
+          <p>So along with my simple, <b>no nonsense approach to nutrition</b>, I eventually created a system of mental, emotional, and physical health that incorporated everything I've learned in over a decade of work.</p>
+
+          <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', borderTop: '1px dashed rgba(0, 0, 0, 0.75)', borderBottom: '1px dashed rgba(0, 0, 0, 0.75)', paddingTop: '2em', paddingBottom: '2em'}}>
+            <img src={ba2} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
+            <img src={ba3} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
+          </div>
+
+          <p>So what became my true passion was helping people change their relationship with themselves. To put themselves first and to <b>practice self love</b> every day. </p>
+
+          <p>Because that is what I've found produces not only weight loss, but <b>radical transformation.</b> So much more than just weight loss. I believe it's the answer to weight loss.....forever.</p>
+
+          <p>And that's my origin story.</p>
+
+          <p>You can find out a little more about me personally in the video on this page.</p>
+          </div>
       </section>
     </article>
   </Layout>

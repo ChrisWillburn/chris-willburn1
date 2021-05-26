@@ -7,11 +7,7 @@
 @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 // Breakpoints.
 
@@ -1437,7 +1433,7 @@
 		}
 
 		.close {
-			background-image: url('../images/close.png');
+			background-image: url('../images/close-black.png');
 			background-position: 4.85em 1em;
 			background-repeat: no-repeat;
 			border: 0;
@@ -1931,3 +1927,25 @@
 			}
 		}
 	}
+
+/* Custom */
+
+		.about-video-container {
+			display: flex;
+			margin-top: 5em;
+		}
+
+		@media screen and (max-width: 1025px) {
+			.about-video-container {
+				flex-wrap: wrap;
+			}
+		}
+
+		.about-centered {
+			text-align: center;
+    		margin: 2em 0;
+    		font-weight: bold;
+    		font-size: 2rem;
+			font-style: italic;
+			line-height: 1.25;
+		}

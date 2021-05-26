@@ -19,6 +19,13 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        htmlTitle: `Content Manager`,
+      },
+    },
+    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],
