@@ -15,8 +15,8 @@ const AboutPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3 style={{textAlign: 'center', fontStyle: 'italic'
-          }}>I believe that there is a best version of ourselves inside all of us that has the capability to give us everything we want in life.</h3>
+          <h3 style={{textAlign: 'center', fontStyle: 'italic'}}>
+          I believe that there is a best version of ourselves inside all of us that has the capability to give us everything we want in life.</h3>
 
             <p style="marginTop: 5em">Everything you need to live the life you always wanted is already I side you!</p>
 
