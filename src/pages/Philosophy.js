@@ -2,9 +2,9 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import aboutthumb from '../assets/images/aboutthumb.jpg';
-import ba2 from '../assets/images/before-and-after2.jpg';
-import ba3 from '../assets/images/before-and-after3.jpg';
+import aboutthumb from '../assets/images/before-and-after.jpg';
+import ba from '../assets/images/before-and-after2.jpg';
+import ba14 from '../assets/images/ba14.jpg';
 
 const AboutPage = () => (
   <Layout fullMenu>
@@ -15,10 +15,10 @@ const AboutPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3 style={{textAlign: 'center', fontStyle: 'italic'}}>
+        <h3 style={{fontSize: '1.5em', textAlign: 'center', fontStyle: 'italic'}}>
           I believe that there is a best version of ourselves inside all of us that has the capability to give us everything we want in life.</h3>
 
-            <p style="marginTop: 5em">Everything you need to live the life you always wanted is already I side you!</p>
+            <p className="firstParagraph">Everything you need to live the life you always wanted is already inside side you!</p>
 
             <p>And the way you let it out is to master your own self care. </p>
 
@@ -28,6 +28,11 @@ const AboutPage = () => (
 
             <p>The answer to that is mastering your own self care so your best self can start running the show.</p>
 
+            <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', paddingTop: '2em', paddingBottom: '2em'}}>
+            <img src={ba} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
+            <img src={ba14} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
+          </div>
+
             <p>When you realize that there is nothing wrong with you,  and all you need to do is start acting from the best version of yourself.......a whole transformation occurs. </p>
 
             <p>It's my highest passion to help as many people as possible discover how amazing they really are and meet the best version of themselves by learning how to put their own self care on the top of their to do list.</p>
@@ -35,6 +40,8 @@ const AboutPage = () => (
             <p>This definitely includes weighloss and your physical body. But their also needs to be a whole person approach that works on the mental and emotional aspects as well.</p>
 
             <p>When you maximize all three aspects of health, you start to live the life you always wanted.</p>
+
+            <p style={{textAlign: 'center'}}><a href="/#" className="button primary">Get Started</a></p>
 
 
           

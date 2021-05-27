@@ -1930,22 +1930,26 @@
 
 /* Custom */
 
+	.about-video-container {
+		display: flex;
+		margin-top: 5em;
+	}
+
+	@media screen and (max-width: 1025px) {
 		.about-video-container {
-			display: flex;
-			margin-top: 5em;
+		flex-wrap: wrap;
 		}
+	}
 
-		@media screen and (max-width: 1025px) {
-			.about-video-container {
-				flex-wrap: wrap;
-			}
-		}
+	.about-centered {
+		text-align: center;
+    	margin: 2em 0;
+    	font-weight: bold;
+    	font-size: 2rem;
+		font-style: italic;
+		line-height: 1.25;
+	}
 
-		.about-centered {
-			text-align: center;
-    		margin: 2em 0;
-    		font-weight: bold;
-    		font-size: 2rem;
-			font-style: italic;
-			line-height: 1.25;
-		}
+	.firstParagraph {
+		margin-top: 5em;
+	}

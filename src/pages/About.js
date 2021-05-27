@@ -2,8 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import Video from '../components/Video';
-
 import aboutthumb from '../assets/images/aboutthumb.jpg';
 import ba2 from '../assets/images/before-and-after2.jpg';
 import ba3 from '../assets/images/before-and-after3.jpg';
