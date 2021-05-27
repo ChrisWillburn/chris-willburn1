@@ -18,7 +18,7 @@ const AboutPage = () => (
           <h3 style={{textAlign: 'center', fontStyle: 'italic'
           }}>I believe that there is a best version of ourselves inside all of us that has the capability to give us everything we want in life.</h3>
 
-            <p>Everything you need to live the life you always wanted is already I side you!</p>
+            <p style="marginTop: 5em">Everything you need to live the life you always wanted is already I side you!</p>
 
             <p>And the way you let it out is to master your own self care. </p>
 
