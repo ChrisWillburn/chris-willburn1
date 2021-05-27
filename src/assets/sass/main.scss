@@ -1770,7 +1770,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', 'url("../images/cwc-site-background.jpg")');
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1779,13 +1779,13 @@
 
 			h2 {
 				font-size: 1.75em;
-				margin: 0 0 (_size(element-margin) * 0.25) 0;
+				margin: (_size(element-margin) * 2.25) 0 0 0;
 			}
-
+ 
 			p {
 				color: inherit;
 				letter-spacing: _size(letter-spacing-alt);
-				text-transform: uppercase;
+				text-transform: uppercase; 
 				top: 0;
 
 				a {
@@ -1794,7 +1794,7 @@
 			}
 
 			@include breakpoint('<=xlarge') {
-				@include padding(10em, 0);
+				@include padding(12em, 0);
 			}
 
 			@include breakpoint('<=large') {
@@ -1802,7 +1802,7 @@
 			}
 
 			@include breakpoint('<=medium') {
-				@include padding(10em, 3em);
+				@include padding(12em, 3em);
 			}
 
 			@include breakpoint('<=small') {
@@ -1895,7 +1895,7 @@
 
 	body.landing, .main-body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', 'url("../images/cwc-site-background.jpg")');
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1916,7 +1916,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+				@include vendor('background-image', 'url("../images/cwc-site-background.jpg")');
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
