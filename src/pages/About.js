@@ -2,6 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+import Video from '../components/Video';
+
 import aboutthumb from '../assets/images/aboutthumb.jpg';
 import ba2 from '../assets/images/before-and-after2.jpg';
 import ba3 from '../assets/images/before-and-after3.jpg';
@@ -15,12 +17,20 @@ const AboutPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3 style={{textAlign: 'center', fontStyle: 'italic'
+          <h3 style={{fontSize: '1.5em', textAlign: 'center', fontStyle: 'italic'
           }}>In 2010 I tipped the scales at around 300 pounds.</h3>
 
           <div className="about-video-container">
           <div style={{width: '50%'}}>
-          <img src={aboutthumb} style={{maxWidth: '100%'}} alt="Meet Chris Willburn, transformation coach" />
+          <a href="https://www.youtube.com/embed/v=sx5KFCHrgrc" 
+            className="fresco"
+            data-fresco-options="
+              rel: 0,
+              html5: 1,
+              vq: hd720,
+              modestbranding: 1,
+            ">
+            <img src={aboutthumb} style={{maxWidth: '100%'}} alt="Meet Chris Willburn, transformation coach" /></a>
           </div>
           <div style={{width: '50%'}}>
           <p>I was depressed, anxious, struggling with insomnia, on a ton of different prescription medications, and DEEPLY unhappy. </p>
@@ -53,7 +63,7 @@ const AboutPage = () => (
 
           <p>So along with my simple, <b>no nonsense approach to nutrition</b>, I eventually created a system of mental, emotional, and physical health that incorporated everything I've learned in over a decade of work.</p>
 
-          <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', borderTop: '1px dashed rgba(0, 0, 0, 0.75)', borderBottom: '1px dashed rgba(0, 0, 0, 0.75)', paddingTop: '2em', paddingBottom: '2em'}}>
+          <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', paddingTop: '2em', paddingBottom: '2em'}}>
             <img src={ba2} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
             <img src={ba3} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
           </div>

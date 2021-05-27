@@ -7,6 +7,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -19,14 +20,7 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        htmlTitle: `Content Manager`,
-      },
-    },
-    'gatsby-plugin-netlify-cms',
-    'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    // 'gatsby-plugin-netlify-cms',
   ],
-};
+}
