@@ -42,10 +42,9 @@ const ContactPage = () => (
 							<div className="col-12">
 								<select name="demo-category" id="demo-category">
 									<option value="">- Area of Interest -</option>
+									<option value="1">Free Consultation</option>
 									<option value="1">Weight Loss</option>
 									<option value="1">Mental Coaching</option>
-									<option value="1">Option 3</option>
-									<option value="1">Option 4</option>
 								</select>
 							</div>
 							<div className="col-12">

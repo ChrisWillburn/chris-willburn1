@@ -2,9 +2,11 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import aboutthumb from '../assets/images/aboutthumb.jpg';
-import ba2 from '../assets/images/before-and-after2.jpg';
-import ba3 from '../assets/images/before-and-after3.jpg';
+import ba11 from '../assets/images/ba11.jpg';
+import ba9 from '../assets/images/ba9.jpg';
+
+import ba15 from '../assets/images/ba15.jpg';
+import ba16 from '../assets/images/ba16.jpg';
 
 const AboutPage = () => (
   <Layout fullMenu>
@@ -15,14 +17,20 @@ const AboutPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
-          <h3 style={{textAlign: 'center', fontStyle: 'italic'
-          }}>There is more information than ever out there on how to lose weight, as well as more diets than ever.</h3>
+        <h3 style={{fontSize: '1.5em', textAlign: 'center', fontStyle: 'italic'}}>
+            There is more information than ever out there on how to lose weight, as well as more diets than ever.
+        </h3>
 
-            <p>So why are their more overweight and obese people than ever.</p>
+            <p className="firstParagraph">So why are their more overweight and obese people than ever?</p>
 
             <p>Because in our society we are looking at diets and weighloss backwards.</p>
 
             <p>Instead of focusing on the most "hardcore" diet with the most restrictions that makes you miserable and RUNS your life...</p>
+
+            <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', paddingTop: '2em', paddingBottom: '2em'}}>
+            <img src={ba11} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
+            <img src={ba9} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
+          </div>
 
             <p>What if we created you a plan that was easy, enjoyable, and MADE YOUR LIFE BETTER? </p>
 
@@ -62,13 +70,47 @@ const AboutPage = () => (
             </li>
             </ol>
 
-            <p>“You will never get results you LOVE doing things you hate"...so let’s build you a process you LOVE.</p>
+            <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', paddingTop: '2em', paddingBottom: '2em'}}>
+            <img src={ba15} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
+            <img src={ba16} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
+          </div>
+            <p>“You will never get  you LOVE doing things you hate"...so let’s build you a process you LOVE.</p>
  
             <p>There are several different options for joining The Self Care Project to fit whatever your needs are. All are 12 weeks minimum.</p>
  
             <p>Ready to get started on changing your life for good?</p>
  
             <p>Fill out the form below to schedule a free consultation.</p>
+
+          <section>
+          <form method="post" action="#">
+						<div className="row gtr-uniform">
+							<div className="col-6 col-12-xsmall">
+								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
+							</div>
+							<div className="col-6 col-12-xsmall">
+								<input type="email" name="demo-email" id="demo-email" defaultValue="" placeholder="Email" />
+							</div>
+							<div className="col-12">
+								<select name="demo-category" id="demo-category">
+									<option value="">- Area of Interest -</option>
+									<option value="1">Free Consultation</option>
+									<option value="1">Weight Loss</option>
+									<option value="1">Mental Coaching</option>
+								</select>
+							</div>
+							<div className="col-12">
+								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+							</div>
+							<div className="col-12">
+								<ul className="actions">
+									<li><input type="submit" value="Send Message" className="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				  </section>
 
 
           
