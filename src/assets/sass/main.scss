@@ -1953,3 +1953,10 @@
 	.firstParagraph {
 		margin-top: 5em;
 	}
+
+	.img-shadow {
+		padding: 8px;
+		-webkit-box-shadow: 0 0 2px 1px #d1d1d1;
+    	-moz-box-shadow: 0 0 2px 1px #d1d1d1;
+    	box-shadow: 0 0 2px 1px #d1d1d1;
+	}

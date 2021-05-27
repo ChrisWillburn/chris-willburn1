@@ -20,7 +20,7 @@ const AboutPage = () => (
 
           <div className="about-video-container">
           <div style={{width: '50%'}}>
-          <a href="https://www.youtube.com/embed/v=sx5KFCHrgrc" 
+          <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/v=sx5KFCHrgrc" 
             className="fresco"
             data-fresco-options="
               rel: 0,
@@ -28,7 +28,7 @@ const AboutPage = () => (
               vq: hd720,
               modestbranding: 1,
             ">
-            <img src={aboutthumb} style={{maxWidth: '100%'}} alt="Meet Chris Willburn, transformation coach" /></a>
+            <img className="img-shadow" src={aboutthumb} style={{maxWidth: '100%'}} alt="Meet Chris Willburn, transformation coach" /></a>
           </div>
           <div style={{width: '50%'}}>
           <p>I was depressed, anxious, struggling with insomnia, on a ton of different prescription medications, and DEEPLY unhappy. </p>
@@ -62,8 +62,8 @@ const AboutPage = () => (
           <p>So along with my simple, <b>no nonsense approach to nutrition</b>, I eventually created a system of mental, emotional, and physical health that incorporated everything I've learned in over a decade of work.</p>
 
           <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', paddingTop: '2em', paddingBottom: '2em'}}>
-            <img src={ba2} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
-            <img src={ba3} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
+            <img className="img-shadow" src={ba2} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
+            <img className="img-shadow" src={ba3} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
           </div>
 
           <p>So what became my true passion was helping people change their relationship with themselves. To put themselves first and to <b>practice self love</b> every day. </p>

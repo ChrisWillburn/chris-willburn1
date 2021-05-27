@@ -29,8 +29,8 @@ const AboutPage = () => (
             <p>The answer to that is mastering your own self care so your best self can start running the show.</p>
 
             <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', paddingTop: '2em', paddingBottom: '2em'}}>
-            <img src={ba} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
-            <img src={ba14} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
+            <img className="img-shadow" src={ba} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
+            <img className="img-shadow" src={ba14} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
           </div>
 
             <p>When you realize that there is nothing wrong with you,  and all you need to do is start acting from the best version of yourself.......a whole transformation occurs. </p>
@@ -41,7 +41,7 @@ const AboutPage = () => (
 
             <p>When you maximize all three aspects of health, you start to live the life you always wanted.</p>
 
-            <p style={{textAlign: 'center'}}><a href="/#" className="button primary">Get Started</a></p>
+            <p style={{textAlign: 'center'}}><a href="/Contact" className="button primary">Get Started</a></p>
 
 
           

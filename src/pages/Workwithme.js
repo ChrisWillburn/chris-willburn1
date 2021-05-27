@@ -28,8 +28,8 @@ const AboutPage = () => (
             <p>Instead of focusing on the most "hardcore" diet with the most restrictions that makes you miserable and RUNS your life...</p>
 
             <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', paddingTop: '2em', paddingBottom: '2em'}}>
-            <img src={ba11} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
-            <img src={ba9} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
+            <img className="img-shadow" src={ba11} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
+            <img className="img-shadow" src={ba9} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
           </div>
 
             <p>What if we created you a plan that was easy, enjoyable, and MADE YOUR LIFE BETTER? </p>
@@ -71,8 +71,8 @@ const AboutPage = () => (
             </ol>
 
             <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', paddingTop: '2em', paddingBottom: '2em'}}>
-            <img src={ba15} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
-            <img src={ba16} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
+            <img className="img-shadow" src={ba15} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
+            <img className="img-shadow" src={ba16} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
           </div>
             <p>“You will never get  you LOVE doing things you hate"...so let’s build you a process you LOVE.</p>
  
