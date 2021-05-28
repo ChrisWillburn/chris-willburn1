@@ -113,9 +113,8 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>See What People Are Saying</h2>
-
-          <div className="home-videos">
-            <div className="first-home-video">
+          <div className="row gtr-uniform">
+          <div className="col-6 col-12-xsmall">
               <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/s06JrfHiOts" 
                 className="fresco"
                 data-fresco-options="
@@ -130,7 +129,7 @@ const IndexPage = () => (
               </figure></a>
             </div>
 
-            <div className="first-home-video">
+            <div className="col-6 col-12-xsmall">
               <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/DZx-VCgQ8HY" 
                 className="fresco"
                 data-fresco-options="
