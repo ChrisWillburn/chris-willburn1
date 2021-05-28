@@ -61,7 +61,9 @@ const AboutPage = () => (
 
           <p>So along with my simple, <b>no nonsense approach to nutrition</b>, I eventually created a system of mental, emotional, and physical health that incorporated everything I've learned in over a decade of work.</p>
 
-          <div className="row gtr-uniform" style={{textAlign: 'center'}}>
+          <hr />
+
+          <div className="row gtr-uniform ba-container">
           <div className="col-6 col-12-xsmall">
             <img className="img-shadow" src={ba2} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
             </div>
@@ -69,6 +71,8 @@ const AboutPage = () => (
             <img className="img-shadow" src={ba3} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
             </div>
           </div>
+
+          <hr />
 
           <p>So what became my true passion was helping people change their relationship with themselves. To put themselves first and to <b>practice self love</b> every day. </p>
 

@@ -2,7 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import aboutthumb from '../assets/images/before-and-after.jpg';
 import ba from '../assets/images/before-and-after2.jpg';
 import ba14 from '../assets/images/ba14.jpg';
 
@@ -28,7 +27,9 @@ const AboutPage = () => (
 
             <p>The answer to that is mastering your own self care so your best self can start running the show.</p>
 
-            <div className="row gtr-uniform" style={{textAlign: 'center'}}>
+            <hr />
+
+            <div className="row gtr-uniform ba-container">
             <div className="col-6 col-12-xsmall">
             <img className="img-shadow" src={ba} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
             </div>
@@ -36,6 +37,8 @@ const AboutPage = () => (
             <img className="img-shadow" src={ba14} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
             </div>
             </div>
+
+            <hr />
 
             <p>When you realize that there is nothing wrong with you,  and all you need to do is start acting from the best version of yourself.......a whole transformation occurs. </p>
 

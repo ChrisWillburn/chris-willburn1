@@ -41,11 +41,11 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2 style={{borderBottom: 'none'}}>
-          <span className="home-headline"><span className="headline-copy">I BELIEVE THERE IS A BEST VERSION OF OURSELVES</span></span>
+          <span className="home-headline"><span className="headline-copy"><mark>I BELIEVE THERE IS A BEST VERSION OF OURSELVES</mark></span></span>
           <br />
-          <span className="home-headline"><span className="headline-copy">INSIDE ALL OF US THAT HAS THE CAPABILITY TO</span></span>
+          <span className="home-headline"><span className="headline-copy"><mark>INSIDE ALL OF US THAT HAS THE CAPABILITY TO</mark></span></span>
           <br />
-          <span className="home-headline"><span className="headline-copy">GIVE US EVERYTHING WE WANT IN LIFE.</span></span>
+          <span className="home-headline"><span className="headline-copy"><mark>GIVE US EVERYTHING WE WANT IN LIFE.</mark></span></span>
           </h2>
         </header>
       </div>

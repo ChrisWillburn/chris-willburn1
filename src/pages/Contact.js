@@ -2,6 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+import cwabs from '../assets/images/cw-abs.jpg'
+
 const ContactPage = () => (
   <Layout fullMenu>
     <article id="main">
@@ -13,6 +15,9 @@ const ContactPage = () => (
         <div className="inner">
         <h3 style={{fontSize: '1.5em', textAlign: 'center', fontStyle: 'italic'
           }}>Thank you for your interest in Chris Willburn Coaching.</h3>
+
+		<img src={cwabs} className="contact-image img-shadow" alt="Fill out the form below to contact Chris Willburn" />
+
           <p className="firstParagraph">
             Fill out the form below and I'll get back to you shortly.
           </p>

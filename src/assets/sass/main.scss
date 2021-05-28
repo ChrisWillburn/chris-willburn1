@@ -1961,27 +1961,24 @@
     	box-shadow: 0 0 2px 1px #d1d1d1;
 	}
 
-	.home-headline {
-		background-color: yellow;
-		background-image: linear-gradient (
-			to right,
-			rgba(255, 225, 0, 0.1),
-			rgba(255, 225, 0, 0.7) 4%,
-			rgba(255, 225, 0, 0.3)
-		);
-		/* background: transparent; */
-		padding: 8px;
-		line-height: 2.5;
+	mark {
+		margin: 0 -0.4em;
+		padding: 0.1em 0.4em;
 		border-radius: 0.8em 0.3em;
+		background: transparent;
+		background-image: linear-gradient(
+		  to right,
+		  rgba(255, 225, 0, 0.1),
+		  rgba(255, 225, 0, 0.7) 4%,
+		  rgba(255, 225, 0, 0.3)
+		);
 		-webkit-box-decoration-break: clone;
 		box-decoration-break: clone;
+	  }
 
-	}
-
-	.headline-copy {
-		position: relative;
-		top: 18px;
-		left: 22px;
+	.ba-container {
+		text-align: center;
+		margin: 4em 0 !important;
 	}
 
 	.bahome1 {
@@ -2019,4 +2016,12 @@
 	.home-videos {
 		display: flex;
 		justify-content: space-evenly;
+	}
+
+	.contact-image {
+		width: 300px;
+		height: 468px;
+		border-radius: 50%;
+		display: block;
+		margin: 5em auto 0;
 	}

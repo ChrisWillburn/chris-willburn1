@@ -27,7 +27,9 @@ const AboutPage = () => (
 
             <p>Instead of focusing on the most "hardcore" diet with the most restrictions that makes you miserable and RUNS your life...</p>
 
-            <div className="row gtr-uniform" style={{textAlign: 'center'}}>
+            <hr />
+
+            <div className="row gtr-uniform ba-container">
             <div className="col-6 col-12-xsmall">
             <img className="img-shadow" src={ba11} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
             </div>
@@ -35,6 +37,8 @@ const AboutPage = () => (
             <img className="img-shadow" src={ba9} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
             </div>
             </div>
+
+            <hr />
 
             <p>What if we created you a plan that was easy, enjoyable, and MADE YOUR LIFE BETTER? </p>
 
@@ -74,7 +78,9 @@ const AboutPage = () => (
             </li>
             </ol>
 
-            <div className="row gtr-uniform" style={{textAlign: 'center'}}>
+            <hr />
+
+            <div className="row gtr-uniform ba-container">
             <div className="col-6 col-12-xsmall">
             <img className="img-shadow" src={ba15} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
             </div>
@@ -82,6 +88,9 @@ const AboutPage = () => (
             <img className="img-shadow" src={ba16} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
             </div>
           </div>
+
+          <hr />
+          
             <p>“You will never get  you LOVE doing things you hate"...so let’s build you a process you LOVE.</p>
  
             <p>There are several different options for joining The Self Care Project to fit whatever your needs are. All are 12 weeks minimum.</p>
