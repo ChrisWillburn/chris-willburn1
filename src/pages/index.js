@@ -4,9 +4,15 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+
+import chrishome from '../assets/images/chris-home.png';
+import bahome1 from '../assets/images/ba-home1.jpg';
+import bahome2 from '../assets/images/ba-home2.jpg';
+import bahome3 from '../assets/images/ba-home3.jpg';
+import monique from '../assets/images/cw-monique.jpg';
+import trisha from '../assets/images/cw-trisha.jpg';
+
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -34,86 +40,71 @@ const IndexPage = () => (
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
-          <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+          <h2 style={{borderBottom: 'none'}}>
+          <span className="home-headline"><span className="headline-copy">I BELIEVE THERE IS A BEST VERSION OF OURSELVES</span></span>
+          <br />
+          <span className="home-headline"><span className="headline-copy">INSIDE ALL OF US THAT HAS THE CAPABILITY TO</span></span>
+          <br />
+          <span className="home-headline"><span className="headline-copy">GIVE US EVERYTHING WE WANT IN LIFE.</span></span>
           </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
         </header>
-        <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul>
       </div>
     </section>
 
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={chrishome} alt="Chris Willburn, coach and transformation specialist" />
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            Hi, I'm Chris Willburn
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            My life's purpose is to help people just like you live their best lives. We'll do this by getting your mindset on the right track and getting you the tools to be your best self.
+            <p style={{marginTop: '2em'}}><a href="/About" className="button primary">About Me</a></p>
           </p>
         </div>
       </section>
       <section className="spotlight">
-        <div className="image">
-          <img src={pic2} alt="" />
+        <div className="image home-ba">
+        <img className="img-shadow bahome1" src={bahome1} style={{maxWidth: '100%', width: '200px', height: '234px'}} alt="Before and after working with Chris Willburn" />
+        <img className="img-shadow bahome2" src={bahome2} style={{maxWidth: '100%', width: '200px', height: '234px'}} alt="Before and after working with Chris Willburn" />
+        <img className="img-shadow bahome3" src={bahome3} style={{maxWidth: '100%', width: '200px', height: '234px'}} alt="Before and after working with Chris Willburn" />
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
+            Real Results
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            My clients get real results that last a lifetime.
+            That's the difference between creating a solid 
+            plan and jumping from diet to diet.
           </p>
         </div>
       </section>
       <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <div className="content">
+      <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            Sign up to my newsletter to get updates.
           </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+        </div>
+        <div className="image">
+        <form method="post" action="#" className="home-signup">
+						<div className="row gtr-uniform">
+							<div className="col-6 col-12-xsmall">
+								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="First Name" />
+							</div>
+							<div className="col-6 col-12-xsmall">
+								<input type="email" name="demo-email" id="demo-email" defaultValue="" placeholder="Email" />
+							</div>
+							<div className="col-12">
+								<ul className="actions">
+									<li><input type="submit" value="Subscribe" className="primary" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
         </div>
       </section>
     </section>
@@ -121,83 +112,53 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
+          <h2>See What People Are Saying</h2>
+
+          <div className="home-videos">
+            <div className="first-home-video">
+              <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/s06JrfHiOts" 
+                className="fresco"
+                data-fresco-options="
+                  rel: 0,
+                  html5: 1,
+                  vq: hd720,
+                  modestbranding: 1,
+              ">
+              <figure>
+              <img className="img-shadow" src={monique} style={{maxWidth: '100%'}} alt="Watch Monique's story of working with Chris Willburn" />
+              <figcaption>Monique's Journey of 150 pounds lost <br /> with Project Breakthrough</figcaption>
+              </figure></a>
+            </div>
+
+            <div className="first-home-video">
+              <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/DZx-VCgQ8HY" 
+                className="fresco"
+                data-fresco-options="
+                  rel: 0,
+                  html5: 1,
+                  vq: hd720,
+                  modestbranding: 1,
+              ">
+              <figure>
+              <img className="img-shadow" src={trisha} style={{maxWidth: '100%'}} alt="Watch Monique's story of working with Chris Willburn" />
+              <figcaption>Trisha's Sucess Story</figcaption>
+              </figure>
+              </a>
+            </div>
+          </div>
         </header>
-        <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-        </ul>
       </div>
     </section>
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
-        <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
-        </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul>
+        
+      <p style={{margin: 'auto'}}>
+        <a href="/#" className="button fit primary">
+              Get in Touch
+        </a>
+      </p>
+          
       </div>
     </section>
   </Layout>
