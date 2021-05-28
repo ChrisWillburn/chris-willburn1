@@ -18,8 +18,8 @@ const AboutPage = () => (
           <h3 style={{fontSize: '1.5em', textAlign: 'center', fontStyle: 'italic'
           }}>In 2010 I tipped the scales at around 300 pounds.</h3>
 
-          <div className="about-video-container">
-          <div style={{width: '50%'}}>
+          <div className="row gtr-uniform">
+          <div className="col-6 col-12-xsmall">
           <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/v=sx5KFCHrgrc" 
             className="fresco"
             data-fresco-options="
@@ -30,7 +30,7 @@ const AboutPage = () => (
             ">
             <img className="img-shadow" src={aboutthumb} style={{maxWidth: '100%'}} alt="Meet Chris Willburn, transformation coach" /></a>
           </div>
-          <div style={{width: '50%'}}>
+          <div className="col-6 col-12-xsmall">
           <p>I was depressed, anxious, struggling with insomnia, on a ton of different prescription medications, and DEEPLY unhappy. </p>
 
           <p>I had gained a bunch of weight slowly after a downward spiral when my dad died several years earlier. I also had developed some really <b>unhealthy habits</b> to cope with my grief and sadness.</p>
@@ -61,9 +61,13 @@ const AboutPage = () => (
 
           <p>So along with my simple, <b>no nonsense approach to nutrition</b>, I eventually created a system of mental, emotional, and physical health that incorporated everything I've learned in over a decade of work.</p>
 
-          <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', paddingTop: '2em', paddingBottom: '2em'}}>
+          <div className="row gtr-uniform" style={{textAlign: 'center'}}>
+          <div className="col-6 col-12-xsmall">
             <img className="img-shadow" src={ba2} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
+            </div>
+            <div className="col-6 col-12-xsmall">
             <img className="img-shadow" src={ba3} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
+            </div>
           </div>
 
           <p>So what became my true passion was helping people change their relationship with themselves. To put themselves first and to <b>practice self love</b> every day. </p>

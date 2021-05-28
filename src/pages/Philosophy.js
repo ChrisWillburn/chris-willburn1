@@ -28,10 +28,14 @@ const AboutPage = () => (
 
             <p>The answer to that is mastering your own self care so your best self can start running the show.</p>
 
-            <div style={{display: 'flex', justifyContent: 'space-evenly', margin: '4em 0', paddingTop: '2em', paddingBottom: '2em'}}>
+            <div className="row gtr-uniform" style={{textAlign: 'center'}}>
+            <div className="col-6 col-12-xsmall">
             <img className="img-shadow" src={ba} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
+            </div>
+            <div className="col-6 col-12-xsmall">
             <img className="img-shadow" src={ba14} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
-          </div>
+            </div>
+            </div>
 
             <p>When you realize that there is nothing wrong with you,  and all you need to do is start acting from the best version of yourself.......a whole transformation occurs. </p>
 
