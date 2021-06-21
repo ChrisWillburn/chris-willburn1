@@ -67,23 +67,6 @@ const IndexPage = () => (
         </div>
       </section>
       <section className="spotlight">
-        <div className="image home-ba">
-        <img className="img-shadow bahome1" src={bahome1} style={{maxWidth: '100%', width: '200px', height: '234px'}} alt="Before and after working with Chris Willburn" />
-        <img className="img-shadow bahome2" src={bahome2} style={{maxWidth: '100%', width: '200px', height: '234px'}} alt="Before and after working with Chris Willburn" />
-        <img className="img-shadow bahome3" src={bahome3} style={{maxWidth: '100%', width: '200px', height: '234px'}} alt="Before and after working with Chris Willburn" />
-        </div>
-        <div className="content">
-          <h2>
-            Real Results
-          </h2>
-          <p>
-            My clients get real results that last a lifetime.
-            That's the difference between creating a solid 
-            plan and jumping from diet to diet.
-          </p>
-        </div>
-      </section>
-      <section className="spotlight">
       <div className="content">
           <h2>
             Sign up to my newsletter to get updates.
