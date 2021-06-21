@@ -3,8 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import aboutthumb from '../assets/images/aboutthumb.jpg';
-import ba2 from '../assets/images/before-and-after2.jpg';
-import ba3 from '../assets/images/before-and-after3.jpg';
 
 const AboutPage = () => (
   <Layout fullMenu>
@@ -60,17 +58,6 @@ const AboutPage = () => (
           <p>The things they don't teach in the classes, courses, and certifications.</p>
 
           <p>So along with my simple, <b>no nonsense approach to nutrition</b>, I eventually created a system of mental, emotional, and physical health that incorporated everything I've learned in over a decade of work.</p>
-
-          <hr />
-
-          <div className="row gtr-uniform ba-container">
-          <div className="col-6 col-12-xsmall">
-            <img className="img-shadow" src={ba2} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
-            </div>
-            <div className="col-6 col-12-xsmall">
-            <img className="img-shadow" src={ba3} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
-            </div>
-          </div>
 
           <hr />
 
