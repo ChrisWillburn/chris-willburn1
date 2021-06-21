@@ -4,12 +4,8 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic3 from '../assets/images/pic03.jpg';
-
 import chrishome from '../assets/images/chris-home.png';
-import bahome1 from '../assets/images/ba-home1.jpg';
-import bahome2 from '../assets/images/ba-home2.jpg';
-import bahome3 from '../assets/images/ba-home3.jpg';
+
 import monique from '../assets/images/cw-monique.jpg';
 import trisha from '../assets/images/cw-trisha.jpg';
 
@@ -73,22 +69,24 @@ const IndexPage = () => (
           </h2>
         </div>
         <div className="image">
+        
         <form method="post" action="https://chriswillburnfitness.us15.list-manage.com/subscribe/post?u=500bd36b7f4b0afe5f0ff162f&amp;id=5882b2c255" className="home-signup validate" target="_blank" novalidate>
 						<div className="row gtr-uniform">
 							<div className="col-6 col-12-xsmall">
                 <input type="text" value="" name="FNAME" id="mce-FNAME" defaultValue="" placeholder="First Name" />
 							</div>
 							<div className="col-6 col-12-xsmall">
-                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" defaultValue="" placeholder="Email" />
+                <input type="email" value="" name="EMAIL" className="required email" id="mce-EMAIL" defaultValue="" placeholder="Email" />
 							</div>
 							<div className="col-12">
 
-              <div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
+              <div id="mce-responses" className="clear">
+		<div className="response" id="mce-error-response" style={{display: 'none'}}></div>
+		<div className="response" id="mce-success-response" style={{display: 'none'}}></div>
 	</div>
 
-  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_500bd36b7f4b0afe5f0ff162f_5882b2c255" tabindex="-1" value="" /></div>
+
+  <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_500bd36b7f4b0afe5f0ff162f_5882b2c255" tabindex="-1" value="" /></div>
 
 								<ul className="actions">
 									<li><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button primary" /></li>
@@ -96,6 +94,7 @@ const IndexPage = () => (
 							</div>
 						</div>
 					</form>
+
         </div>
       </section>
     </section>
