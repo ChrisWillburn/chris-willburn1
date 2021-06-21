@@ -2,9 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import ba from '../assets/images/before-and-after2.jpg';
-import ba14 from '../assets/images/ba14.jpg';
-
 const AboutPage = () => (
   <Layout fullMenu>
     <article id="main">
@@ -26,17 +23,6 @@ const AboutPage = () => (
             <p>Too many of us put everyone else first and ourselves last. That's a recipe for burnout, frustration and poor health.</p>
 
             <p>The answer to that is mastering your own self care so your best self can start running the show.</p>
-
-            <hr />
-
-            <div className="row gtr-uniform ba-container">
-            <div className="col-6 col-12-xsmall">
-            <img className="img-shadow" src={ba} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
-            </div>
-            <div className="col-6 col-12-xsmall">
-            <img className="img-shadow" src={ba14} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
-            </div>
-            </div>
 
             <hr />
 
