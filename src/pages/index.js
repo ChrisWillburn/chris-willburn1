@@ -40,12 +40,12 @@ const IndexPage = () => (
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
-          <h2 style={{borderBottom: 'none'}}>
-          <span className="home-headline"><span className="headline-copy"><mark>I BELIEVE THERE IS A BEST VERSION OF OURSELVES</mark></span></span>
+          <h2 style={{borderBottom: 'none', margin: '0', paddingBottom: '0'}}>
+          <span className="home-headline"><span className="headline-copy">I BELIEVE THERE IS A BEST VERSION OF OURSELVES</span></span>
           <br />
-          <span className="home-headline"><span className="headline-copy"><mark>INSIDE ALL OF US THAT HAS THE CAPABILITY TO</mark></span></span>
+          <span className="home-headline"><span className="headline-copy">INSIDE ALL OF US THAT HAS THE CAPABILITY TO</span></span>
           <br />
-          <span className="home-headline"><span className="headline-copy"><mark>GIVE US EVERYTHING WE WANT IN LIFE.</mark></span></span>
+          <span className="home-headline"><span className="headline-copy">GIVE US EVERYTHING WE WANT IN LIFE.</span></span>
           </h2>
         </header>
       </div>
