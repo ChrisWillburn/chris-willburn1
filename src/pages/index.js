@@ -153,7 +153,7 @@ const IndexPage = () => (
       <div className="inner">
         
       <p style={{margin: 'auto'}}>
-        <a href="/#" className="button fit primary">
+        <a href="/contact" className="button fit primary">
               Get in Touch
         </a>
       </p>
