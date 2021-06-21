@@ -34,7 +34,7 @@ const PhilosophyPage = () => (
 
             <p>When you maximize all three aspects of health, you start to live the life you always wanted.</p>
 
-            <p style={{textAlign: 'center'}}><a href="/Contact" className="button primary">Get Started</a></p>
+            <p style={{textAlign: 'center'}}><a href="/contact" className="button primary">Get Started</a></p>
 
 
           

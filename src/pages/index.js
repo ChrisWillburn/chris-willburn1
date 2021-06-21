@@ -58,7 +58,7 @@ const IndexPage = () => (
           </h2>
           <p>
             My life's purpose is to help people just like you live their best lives. We'll do this by getting your mindset on the right track and getting you the tools to be your best self.
-            <p style={{marginTop: '2em'}}><a href="/About" className="button primary">About Me</a></p>
+            <p style={{marginTop: '2em'}}><a href="/about" className="button primary">About Me</a></p>
           </p>
         </div>
       </section>
