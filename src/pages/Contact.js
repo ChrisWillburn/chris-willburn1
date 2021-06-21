@@ -16,7 +16,7 @@ const ContactPage = () => (
         <h3 style={{fontSize: '1.5em', textAlign: 'center', fontStyle: 'italic'
           }}>Thank you for your interest in Chris Willburn Coaching.</h3>
 
-		<img src={contactcw} className="img-shadow" alt="Fill out the form below to contact Chris Willburn" />
+		<img src={contactcw} className="img-shadow" style={{margin: 'auto', maxWidth: '100%', display: 'block'}} alt="Fill out the form below to contact Chris Willburn" />
 
           <p className="firstParagraph">
             Fill out the form below and I'll get back to you shortly.
