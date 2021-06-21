@@ -2,12 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import ba11 from '../assets/images/ba11.jpg';
-import ba9 from '../assets/images/ba9.jpg';
-
-import ba15 from '../assets/images/ba15.jpg';
-import ba16 from '../assets/images/ba16.jpg';
-
 const AboutPage = () => (
   <Layout fullMenu>
     <article id="main">
@@ -29,17 +23,6 @@ const AboutPage = () => (
 
             <hr />
 
-            <div className="row gtr-uniform ba-container">
-            <div className="col-6 col-12-xsmall">
-            <img className="img-shadow" src={ba11} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
-            </div>
-            <div className="col-6 col-12-xsmall">
-            <img className="img-shadow" src={ba9} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
-            </div>
-            </div>
-
-            <hr />
-
             <p>What if we created you a plan that was easy, enjoyable, and MADE YOUR LIFE BETTER? </p>
 
             <p>Sounds crazy, right? So with that in mind I created...</p>
@@ -56,7 +39,7 @@ const AboutPage = () => (
             </ul>
 
             <p>The program is based around my 4 Pillars</p>
-            <ol>
+            <ol className="four-pillars-list">
             <li>
                 Mindset
                 Changing how you think when pursuing weight loss and a healthier life in general is the most important thing. I will teach you how to think differently so that you can take control of the conversation in your head and greatly reduce anxiety and depression and increase mental resilience. Mindfulness and positive psychology are stressed a lot in this pillar.
@@ -79,17 +62,6 @@ const AboutPage = () => (
             </ol>
 
             <hr />
-
-            <div className="row gtr-uniform ba-container">
-            <div className="col-6 col-12-xsmall">
-            <img className="img-shadow" src={ba15} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Before and after working with Chris Willburn" />
-            </div>
-            <div className="col-6 col-12-xsmall">
-            <img className="img-shadow" src={ba16} style={{maxWidth: '100%', width: '300px', height: '351px'}} alt="Weight loss results with Chris Willburn" />
-            </div>
-          </div>
-
-          <hr />
           
             <p>“You will never get  you LOVE doing things you hate"...so let’s build you a process you LOVE.</p>
  
