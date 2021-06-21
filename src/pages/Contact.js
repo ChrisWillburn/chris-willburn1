@@ -22,9 +22,7 @@ const ContactPage = () => (
             Fill out the form below and I'll get back to you shortly.
           </p>
 
-         
-
-          <hr />
+        <hr />
 
           <form method="post" action="#">
 						<div className="row gtr-uniform">

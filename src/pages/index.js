@@ -73,17 +73,25 @@ const IndexPage = () => (
           </h2>
         </div>
         <div className="image">
-        <form method="post" action="#" className="home-signup">
+        <form method="post" action="https://chriswillburnfitness.us15.list-manage.com/subscribe/post?u=500bd36b7f4b0afe5f0ff162f&amp;id=5882b2c255" className="home-signup validate" target="_blank" novalidate>
 						<div className="row gtr-uniform">
 							<div className="col-6 col-12-xsmall">
-								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="First Name" />
+                <input type="text" value="" name="FNAME" id="mce-FNAME" defaultValue="" placeholder="First Name" />
 							</div>
 							<div className="col-6 col-12-xsmall">
-								<input type="email" name="demo-email" id="demo-email" defaultValue="" placeholder="Email" />
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" defaultValue="" placeholder="Email" />
 							</div>
 							<div className="col-12">
+
+              <div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>
+
+  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_500bd36b7f4b0afe5f0ff162f_5882b2c255" tabindex="-1" value="" /></div>
+
 								<ul className="actions">
-									<li><input type="submit" value="Subscribe" className="primary" /></li>
+									<li><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button primary" /></li>
 								</ul>
 							</div>
 						</div>
