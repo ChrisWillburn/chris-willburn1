@@ -6,6 +6,10 @@ import Scroll from '../components/Scroll';
 
 import chrishome from '../assets/images/chris-home.png';
 
+import bahome1 from '../assets/images/ba-home1.jpg';
+import bahome2 from '../assets/images/ba-home2.jpg';
+import bahome3 from '../assets/images/ba-home3.jpg';
+
 import monique from '../assets/images/cw-monique.jpg';
 import trisha from '../assets/images/cw-trisha.jpg';
 
@@ -37,11 +41,11 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2 style={{borderBottom: 'none', margin: '0', paddingBottom: '0'}}>
-          <span className="home-headline"><span className="headline-copy">I BELIEVE THERE IS A BEST VERSION OF OURSELVES</span></span>
+          <span className="home-headline"><span className="headline-copy">What if weight loss</span></span>
           <br />
-          <span className="home-headline"><span className="headline-copy">INSIDE ALL OF US THAT HAS THE CAPABILITY TO</span></span>
+          <span className="home-headline"><span className="headline-copy">was more about self care and self love,</span></span>
           <br />
-          <span className="home-headline"><span className="headline-copy">GIVE US EVERYTHING WE WANT IN LIFE.</span></span>
+          <span className="home-headline"><span className="headline-copy">and less about restrictions and self hate?</span></span>
           </h2>
         </header>
       </div>
@@ -57,7 +61,7 @@ const IndexPage = () => (
             Hi, I'm Chris Willburn
           </h2>
           <p>
-            My life's purpose is to help people just like you live their best lives. We'll do this by getting your mindset on the right track and getting you the tools to be your best self.
+          My life's purpose is to help people become the best version's of themselves. We do this my mastering your self care (inside and outside) so you can unlock your best self.
             <p style={{marginTop: '2em'}}><a href="/about" className="button primary">About Me</a></p>
           </p>
         </div>
@@ -97,7 +101,23 @@ const IndexPage = () => (
 
         </div>
       </section>
-    </section>
+
+    <section className="spotlight">
+        <div className="content">
+          <h2>
+          My clients get real, long lasting results because I use methods and strategies that make your life BETTER while you're doing them. Not worse.
+          </h2>
+          <p>
+          You'll enjoy the process so you'll stick to it and YOU WILL GET RESULTS THAT LAST A LIFETIME. 
+          </p>
+        </div>
+        <div className="image home-ba">
+        <img className="img-shadow bahome1" src={bahome1} style={{maxWidth: '100%', width: '200px', height: '234px'}} alt="Before and after working with Chris Willburn" />
+        <img className="img-shadow bahome2" src={bahome2} style={{maxWidth: '100%', width: '200px', height: '234px'}} alt="Before and after working with Chris Willburn" />
+        <img className="img-shadow bahome3" src={bahome3} style={{maxWidth: '100%', width: '200px', height: '234px'}} alt="Before and after working with Chris Willburn" />
+        </div>
+      </section>
+      </section>
 
     <section id="three" className="wrapper style3 special">
       <div className="inner">
