@@ -74,7 +74,7 @@ const IndexPage = () => (
         </div>
         <div className="image">
         
-        <form method="post" action="https://chriswillburnfitness.us15.list-manage.com/subscribe/post?u=500bd36b7f4b0afe5f0ff162f&amp;id=5882b2c255" className="home-signup validate" target="_blank" novalidate>
+        <form method="post" action="https://chriswillburnfitness.us15.list-manage.com/subscribe/post?u=500bd36b7f4b0afe5f0ff162f&amp;id=5882b2c255" className="home-signup validate" target="_blank" noValidate>
 						<div className="row gtr-uniform">
 							<div className="col-6 col-12-xsmall">
                 <input type="text" value="" name="FNAME" id="mce-FNAME" defaultValue="" placeholder="First Name" />
