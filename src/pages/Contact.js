@@ -24,7 +24,7 @@ const ContactPage = () => (
 
         <hr />
 
-          <form method="post" action="#">
+          <form name="contact" method="POST" data-netlify="true">
 						<div className="row gtr-uniform">
 							<div className="col-6 col-12-xsmall">
 								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
