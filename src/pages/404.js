@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-const IndexPage = () => (
+const NotFoundPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
@@ -13,4 +13,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default NotFoundPage;
