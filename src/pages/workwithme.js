@@ -72,7 +72,7 @@ const WorkPage = () => (
             <p>Fill out the form below to schedule a free consultation.</p>
 
           <section>
-          <form method="post" action="#">
+          <form name="workwithme" method="POST" data-netlify="true">
 						<div className="row gtr-uniform">
 							<div className="col-6 col-12-xsmall">
 								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
@@ -85,7 +85,6 @@ const WorkPage = () => (
 									<option value="">- Area of Interest -</option>
 									<option value="1">Free Consultation</option>
 									<option value="1">Weight Loss</option>
-									<option value="1">Mental Coaching</option>
 								</select>
 							</div>
 							<div className="col-12">
