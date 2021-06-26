@@ -10,7 +10,7 @@ import CMS from 'netlify-cms-app'
 // CMS.registerMediaLibrary(uploadcare)
 // CMS.registerMediaLibrary(cloudinary)
 
-// CMS.registerPreviewTemplate('index', IndexPagePreview)
-// CMS.registerPreviewTemplate('about', AboutPagePreview)
-// CMS.registerPreviewTemplate('products', ProductPagePreview)
-// CMS.registerPreviewTemplate('blog', BlogPostPreview)
+CMS.registerPreviewTemplate('index', IndexPagePreview)
+CMS.registerPreviewTemplate('about', AboutPagePreview)
+CMS.registerPreviewTemplate('products', ProductPagePreview)
+CMS.registerPreviewTemplate('blog', BlogPostPreview)
