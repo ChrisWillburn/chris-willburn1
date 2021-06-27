@@ -1912,7 +1912,8 @@
 	body.is-mobile {
 		&.landing {
 			#page-wrapper {
-				background: none;
+				// background: none;
+				background-color: rgba(0,0,0,.225);
 			}
 
 			#banner,
@@ -1929,6 +1930,11 @@
 			#footer {
 				background-color: darken(_palette(bg), 8);
 			}
+
+			body.landing, .main-body.landing {
+				#page-wrapper {
+					background-color: rgba(0,0,0,.225);
+				}
 		}
 	}
 
