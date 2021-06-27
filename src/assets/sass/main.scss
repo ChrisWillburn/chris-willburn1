@@ -1917,8 +1917,9 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include padding(12em, 0);
-				@include vendor('background-image', 'url("../images/cwc-background.jpg")');
+				// @include padding(12em, 0);
+				// @include vendor('background-image', 'url("../images/cwc-background.jpg")');
+				background-color: rgba(0,0,0,.225);
 				background-attachment: fixed;
 				background-position: center center;
 				background-repeat: no-repeat;
