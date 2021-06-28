@@ -1912,31 +1912,25 @@
 	body.is-mobile {
 		&.landing {
 			#page-wrapper {
-				// background: none;
-				background-color: rgba(0,0,0,.225);
+				background: none;
 			}
 
 			#banner,
 			.wrapper.style4 {
-				// @include padding(12em, 0);
-				// @include vendor('background-image', 'url("../images/cwc-background.jpg")');
+				@include padding(12em, 0);
+				@include vendor('background-image', 'url("../images/cwc-background.jpg")');
 				background-color: rgba(0,0,0,.225);
 				background-attachment: fixed;
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
+		}
 
 			#footer {
 				background-color: darken(_palette(bg), 8);
 			}
-
-			body.landing, .main-body.landing {
-				#page-wrapper {
-					background-color: rgba(0,0,0,.225);
-				}
 		}
-	}
 
 /* Custom */
 
@@ -1970,21 +1964,6 @@
     	-moz-box-shadow: 0 0 2px 1px #d1d1d1;
     	box-shadow: 0 0 2px 1px #d1d1d1;
 	}
-
-	mark {
-		margin: 0 -0.4em;
-		padding: 0.1em 0.4em;
-		border-radius: 0.8em 0.3em;
-		background: transparent;
-		background-image: linear-gradient(
-		  to right,
-		  rgba(255, 225, 0, 0.1),
-		  rgba(255, 225, 0, 0.7) 4%,
-		  rgba(255, 225, 0, 0.3)
-		);
-		-webkit-box-decoration-break: clone;
-		box-decoration-break: clone;
-	  }
 
 	.ba-container {
 		text-align: center;
@@ -2039,23 +2018,27 @@
 		margin: auto;
 	}
 
-	.masonry-container {
-		-webkit-column-count: 2;
-		-moz-column-count: 2;
-		column-count: 2;
-		  
-		-webkit-column-gap: 15px;
-		-moz-column-gap: 15px;
-		column-gap: 15px;
-	  }
-	  
-	  .masonry-item {
-		display: inline-block;
-		width: 100%;
-	  }
-	  
-	  .masonry-item img {
-		display:block;
-		width: 100%;
-	  }
+	  @media screen and (max-width: 737px) {
+		#page-wrapper {
+			background-color: rgba(0,0,0,.225);
+		}
 	}
+
+.masonry-container {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 15px;
+	-moz-column-gap: 15px;
+	column-gap: 15px;
+  }
+  
+  .masonry-item {
+	display: inline-block;
+	width: 100%;
+  }
+  
+  .masonry-item img {
+	display:block;
+	width: 100%;
+  }
