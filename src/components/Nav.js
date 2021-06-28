@@ -30,9 +30,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               <li>
                 <Link to="/workwithme">Work With Me</Link>
               </li>
-              <li>
+              {/*<li>
                 <Link to="/blog">Blog</Link>
-              </li>
+              </li>*/}
               <li>
                 <Link to="/contact">Contact</Link>
               </li>
