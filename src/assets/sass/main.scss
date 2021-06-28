@@ -1958,43 +1958,9 @@
 		margin-top: 5em;
 	}
 
-	.img-shadow {
-		padding: 8px;
-		-webkit-box-shadow: 0 0 2px 1px #d1d1d1;
-    	-moz-box-shadow: 0 0 2px 1px #d1d1d1;
-    	box-shadow: 0 0 2px 1px #d1d1d1;
-	}
-
 	.ba-container {
 		text-align: center;
 		margin: 4em 0 !important;
-	}
-
-	.bahome1 {
-		background: #fff;
-		position: relative;
-		top: 40px;
-		left: 50px;
-		-ms-transform: rotate(-20deg);
-  		transform: rotate(-20deg);
-	}
-
-	.bahome2 {
-		background: #f1f1f1;
-		position: relative;
-		bottom: 20px;
-		left: 175px;
-		-ms-transform: rotate(17deg);
-  		transform: rotate(17deg);
-	}
-
-	.bahome3 {
-		background: #fff;
-		position: relative;
-		left: 60px;
-		bottom: 50px;
-		-ms-transform: rotate(40deg);
-  		transform: rotate(40deg);
 	}
 
 	.home-signup {
@@ -2042,3 +2008,37 @@
 	display:block;
 	width: 100%;
   }
+
+  .img-shadow {
+	padding: 8px;
+	-webkit-box-shadow: 0 0 2px 1px #d1d1d1;
+	-moz-box-shadow: 0 0 2px 1px #d1d1d1;
+	box-shadow: 0 0 2px 1px #d1d1d1;
+}
+
+.bahome1 {
+	background: #fff;
+	position: relative;
+	top: 40px;
+	left: 50px;
+	-ms-transform: rotate(-20deg);
+	  transform: rotate(-20deg);
+}
+
+.bahome2 {
+	background: #f1f1f1;
+	position: relative;
+	bottom: 20px;
+	left: 175px;
+	-ms-transform: rotate(17deg);
+	  transform: rotate(17deg);
+}
+
+.bahome3 {
+	background: #fff;
+	position: relative;
+	left: 60px;
+	bottom: 50px;
+	-ms-transform: rotate(40deg);
+	  transform: rotate(40deg);
+}
