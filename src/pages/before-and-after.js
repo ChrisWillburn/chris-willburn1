@@ -37,9 +37,6 @@ const BeforePage = () => (
             <div className="masonry-item">
               <img src={beforeafter5} className="img-shadow" alt="Karin's results" />
               </div>
-              <div className="masonry-item">
-              <img src={beforeafter6} className="img-shadow" alt="Megan's fitness results" />
-            </div>
             <div className="masonry-item">
               <img src={beforeafter7} className="img-shadow" alt="Fitness results for Monique" />
             </div>
