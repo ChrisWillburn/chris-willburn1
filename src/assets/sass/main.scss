@@ -1987,8 +1987,16 @@
 	@media screen and (max-width: 737px) {
 		.main-body.landing #page-wrapper, body.landing #page-wrapper {
 			background: none;
+			padding: 0;
+		}
+		#main > header {
+			background: none;
+		}
+		#banner {
+			padding: 0;
 		}
 	}
+
 
 .masonry-container {
 	-webkit-column-count: 2;
