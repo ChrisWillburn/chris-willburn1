@@ -1984,9 +1984,9 @@
 		margin: auto;
 	}
 
-	  @media screen and (max-width: 737px) {
-		#page-wrapper {
-			background-color: rgba(0,0,0,.225);
+	@media screen and (max-width: 737px) {
+		.main-body.landing #page-wrapper, body.landing #page-wrapper {
+			background: none;
 		}
 	}
 
