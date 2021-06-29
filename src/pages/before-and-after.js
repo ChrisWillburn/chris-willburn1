@@ -39,7 +39,13 @@ const BeforePage = () => (
               <img src={beforeafter2} className="img-shadow" alt="Before and After results after working with Chris Willburn" />
             </div>
             <div className="masonry-item">
+              <img src={jessy} className="img-shadow" alt="Fitness results for Jessy" />
+            </div>
+            <div className="masonry-item">
               <img src={beforeafter3} className="img-shadow" alt="Heather's results" />
+              </div>
+              <div className="masonry-item">
+              <img src={beforeafter10} className="img-shadow" alt="Chris Willburn gets you results" />
               </div>
               <div className="masonry-item">
               <img src={beforeafter4} className="img-shadow" alt="Before and after results for Janice" />
@@ -69,16 +75,10 @@ const BeforePage = () => (
               <img src={beforeafter17} className="img-shadow" alt="Lose weight with Chris Willburn Coaching" />
             </div>
             <div className="masonry-item">
-              <img src={jessy} className="img-shadow" alt="Fitness results for Jessy" />
-            </div>
-            <div className="masonry-item">
               <img src={beforeafter8} className="img-shadow" alt="More fitness results from Chris Willburn Coaching" />
             </div>
             <div className="masonry-item">
               <img src={beforeafter9} className="img-shadow" alt="Before and after results from working with Chris Willburn" />
-            </div>
-            <div className="masonry-item">
-              <img src={beforeafter10} className="img-shadow" alt="Chris Willburn gets you results" />
             </div>
           </div>
 
