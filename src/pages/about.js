@@ -18,7 +18,7 @@ const AboutPage = () => (
 
           <div className="row gtr-uniform">
           <div className="col-6 col-12-xsmall">
-          <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/v=sx5KFCHrgrc" 
+          <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/sx5KFCHrgrc" 
             className="fresco"
             data-fresco-options="
               rel: 0,
