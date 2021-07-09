@@ -18,6 +18,9 @@ import jessy from '../assets/images/before-and-after2.jpg';
 import beforeafter8 from '../assets/images/before-and-after8.png';
 import beforeafter9 from '../assets/images/before-and-after9.png';
 import beforeafter10 from '../assets/images/before-and-after10.png';
+import bahome1 from '../assets/images/ba-home1.jpg';
+import bahome2 from '../assets/images/ba-home2.jpg';
+import bahome3 from '../assets/images/ba-home3.jpg';
 
 
 const BeforePage = () => (
@@ -79,6 +82,15 @@ const BeforePage = () => (
             </div>
             <div className="masonry-item">
               <img src={beforeafter9} className="img-shadow" alt="Before and after results from working with Chris Willburn" />
+            </div>
+            <div className="masonry-item">
+              <img src={bahome1} className="img-shadow" alt="Before and after results from working with Chris Willburn" />
+            </div>
+            <div className="masonry-item">
+              <img src={bahome2} className="img-shadow" alt="Chris Willburn Coaching brings results" />
+            </div>
+            <div className="masonry-item">
+              <img src={bahome3} className="img-shadow" alt="Results after working with Chris Willburn" />
             </div>
           </div>
 

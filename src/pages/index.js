@@ -10,8 +10,8 @@ import bahome1 from '../assets/images/ba-home1.jpg';
 import bahome2 from '../assets/images/ba-home2.jpg';
 import bahome3 from '../assets/images/ba-home3.jpg';
 
-import monique from '../assets/images/cw-monique.jpg';
-import trisha from '../assets/images/cw-trisha.jpg';
+// import monique from '../assets/images/cw-monique.jpg';
+// import trisha from '../assets/images/cw-trisha.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
