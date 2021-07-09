@@ -125,7 +125,7 @@ const IndexPage = () => (
           <h2>See What People Are Saying</h2>
           <div className="row gtr-uniform">
           <div className="col-6 col-12-xsmall">
-              <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/s06JrfHiOts" 
+              {/* <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/s06JrfHiOts" 
                 className="fresco"
                 data-fresco-options="
                   rel: 0,
@@ -136,11 +136,12 @@ const IndexPage = () => (
               <figure>
               <img className="img-shadow" src={monique} style={{maxWidth: '100%'}} alt="Watch Monique's story of working with Chris Willburn" />
               <figcaption>Monique's Journey of 150 pounds lost <br /> with Project Breakthrough</figcaption>
-              </figure></a>
+        </figure></a>*/}
+        <iframe className="home-page-video" width="560" height="315" src="https://www.youtube.com/embed/s06JrfHiOts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div className="col-6 col-12-xsmall">
-              <a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/DZx-VCgQ8HY" 
+              {/*<a style={{borderBottom: 'none'}} href="https://www.youtube.com/embed/DZx-VCgQ8HY" 
                 className="fresco"
                 data-fresco-options="
                   rel: 0,
@@ -152,7 +153,8 @@ const IndexPage = () => (
               <img className="img-shadow" src={trisha} style={{maxWidth: '100%'}} alt="Watch Monique's story of working with Chris Willburn" />
               <figcaption>Trisha's Sucess Story</figcaption>
               </figure>
-              </a>
+      </a>*/}
+      <iframe className="home-page-video" width="560" height="315" src="https://www.youtube.com/embed/DZx-VCgQ8HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </header>

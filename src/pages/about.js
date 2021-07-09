@@ -18,7 +18,7 @@ const AboutPage = () => (
 
           <div className="row gtr-uniform">
           <div className="col-6 col-12-xsmall">
-          <a style={{borderBottom: 'none'}} href="https://youtu.be/sx5KFCHrgrc" 
+      {/*<a style={{borderBottom: 'none'}} href="https://youtu.be/sx5KFCHrgrc" 
             className="fresco"
             data-fresco-options="
               rel: 0,
@@ -26,7 +26,11 @@ const AboutPage = () => (
               vq: hd720,
               modestbranding: 1,
             ">
-            <img className="img-shadow" src={aboutthumb} style={{maxWidth: '100%'}} alt="Meet Chris Willburn, transformation coach" /></a>
+        <img className="img-shadow" src={aboutthumb} style={{maxWidth: '100%'}} alt="Meet Chris Willburn, transformation coach" /></a>*/}
+
+<iframe src="https://www.youtube.com/embed/sx5KFCHrgrc" className="about-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="402" height="471" allowfullscreen></iframe>
+
+
           </div>
           <div className="col-6 col-12-xsmall">
           <p>I was depressed, anxious, struggling with insomnia, on a ton of different prescription medications, and DEEPLY unhappy. </p>
