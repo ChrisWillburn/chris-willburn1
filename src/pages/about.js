@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import aboutthumb from '../assets/images/aboutthumb.jpg';
+// import aboutthumb from '../assets/images/aboutthumb.jpg';
 
 const AboutPage = () => (
   <Layout fullMenu>
